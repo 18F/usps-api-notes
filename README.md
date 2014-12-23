@@ -14,11 +14,11 @@ GET https://secure.shippingapis.com/ShippingAPI.dll?API=[NAME_OF_API]&XML=[AN_XM
 
 At 18F, we use the [USPS Ruby gem](https://github.com/gaffneyc/usps) on at least one project. The gem covers several of the APIs (but not all).
 
-We also have developed another Ruby gem [usps-proxy](https://github.com/18F/usps-proxy) which provides a JSONic interface to the API. This lets us keep API keys secret and avoid generating and parsing XML with client-side Javascript.
+We also have developed another Ruby gem, [usps-proxy](https://github.com/18F/usps-proxy) which, provides a JSONic interface to the API. This lets us keep API keys secret and avoid generating and parsing XML with client-side Javascript.
 
 ## Shipping Labels
 
-One current use case for printing shipping labels is a user completes a form online that generates a document that must be printed and mailed somewhere. Including a pre-filled shipping label for users is one way to make the process smoother. Because USPS offers several label-related APIs, it's useful to know what each of their capabilities and limitations.
+One current use case for printing shipping labels is a user completes a form online that generates a document that must be printed and mailed somewhere. Including a pre-filled shipping label for users is one way to make the process smoother. Because USPS offers several label-related APIs, it's useful to know each of their capabilities and limitations.
 
 Currently, the USPS gem does not cover any of the shipping label APIs.
 
