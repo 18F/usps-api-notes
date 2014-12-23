@@ -10,6 +10,12 @@ There is no single "USPS API". Rather, USPS offers multiple APIs which can be mo
 GET https://secure.shippingapis.com/ShippingAPI.dll?API=[NAME_OF_API]&XML=[AN_XML_STRING]
 ```
 
+### Point of Contact
+
+The point of contact for its API program is a person named Ben Burgess. His name is listed on their [GitHub organization](https://github.com/usps). The email address listed there is WebTools@USPS.gov.
+
+USPS also has a team dedicated to large integrations.
+
 ### API Permissions
 
 Several of the APIs, such as the shipping label APIs, require permissions before they can be accessed. An email requesting the permission sent to uspstechnicalsupport@mailps.custhelp.com, along with a short summary of how you will use the API should be enough.
@@ -42,6 +48,8 @@ In order to use this API, merchants must apply for a permit by filling submittin
 - $685 annual account maintenance fee
 
 See [PS 3621](http://about.usps.com/forms/ps3621a.pdf) for a full list of permit fees.
+
+Organizationally, the team that processes PS 3615 is different than the team that grants API permissions.
 
 #### Example Request
 
