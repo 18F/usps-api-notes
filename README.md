@@ -51,6 +51,10 @@ See [PS 3621](http://about.usps.com/forms/ps3621a.pdf) for a full list of permit
 
 Organizationally, the team that processes PS 3615 is different than the team that grants API permissions.
 
+#### Weight
+
+The EMRS docs indicate that an estimate is acceptable.
+
 #### Example Request
 
 ```xml
@@ -124,6 +128,14 @@ Official documentation: https://www.usps.com/business/web-tools-apis/priority-ma
 This API allows users to "[g]enerate a single-ply Priority Mail Express shipping label complete with return and delivery addresses, a barcode, and a mailing record for your use."
 
 Postage is unpaid, meaning the user must buy stamps, or weigh the parcel and buy postage at a post office. However, a permit is not required.
+
+#### PO Boxes
+
+The [Priority Express Mail web page](https://www.usps.com/ship/priority-mail-express.htm) says that deliveries to PO Boxes can be made. This might need to be verified with a USPS staffer.
+
+#### Weight
+
+Unlike with EMRS, the Express Mail Label API docs do not indicate that an estimate is acceptable.
 
 #### Example Request
 
