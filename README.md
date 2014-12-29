@@ -222,8 +222,8 @@ Unlike with EMRS, the Express Mail Label API docs do not indicate that an estima
 </ExpressMailLabelCertifyResponse>
 ```
 
+## Further Reading
 
+### Troubleshooting
 
-
-
-
+- Forum discussion about ["Authorization failure. Perhaps username and/or password is incorrect"](http://forum.opencart.com/viewtopic.php?t=11033)
