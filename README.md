@@ -137,6 +137,8 @@ The [Priority Express Mail web page](https://www.usps.com/ship/priority-mail-exp
 
 Unlike with EMRS, the Express Mail Label API docs do not indicate that an estimate is acceptable.
 
+> [G]iven that the price of the package is based partly on its weight you will want to be as accurate as possible.  Any discrepancy may be charged either at the post office window or as postage due to the recipient. 
+
 #### Example Request
 
 ```xml
