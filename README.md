@@ -229,3 +229,9 @@ Unlike with EMRS, the Express Mail Label API docs do not indicate that an estima
 ### Troubleshooting
 
 - Forum discussion about ["Authorization failure. Perhaps username and/or password is incorrect"](http://forum.opencart.com/viewtopic.php?t=11033)
+
+### Standalone Label Generation
+
+TODO: Get more info
+
+> [W]e do have an API option that produces only the barcode but there is a certification process involved to get approved to create your own label. 
